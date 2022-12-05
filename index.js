@@ -1,6 +1,7 @@
 const express = require('express');
 const { Kafka } = require('kafkajs');
 
+
 (async () => {
   console.log("Initializing kafka...");
   const kafka = new Kafka({
